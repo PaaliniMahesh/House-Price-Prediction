@@ -7,7 +7,7 @@ from sklearn.linear_model import LinearRegression
 import pickle
 
 # Load the trained model
-model = pickle.load(open("C:\\Users\\mahes\\lr.pkl", "rb"))
+model = pickle.load(open("lr.pkl", "rb"))
 
 # Streamlit UI for user input
 st.title("House Price Prediction")
